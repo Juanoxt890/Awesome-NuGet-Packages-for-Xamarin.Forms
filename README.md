@@ -1,3 +1,7 @@
+<a href="https://github.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/packages">
+<img src="https://raw.githubusercontent.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/master/Images_Readme/img_main.png?token=ADLXRJNSDSBZT573K5XD2CC676NSO"/>
+</a>
+
 # Awesome NuGet Packages for Xamarin.Forms
 
 ## Preamble
