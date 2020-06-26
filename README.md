@@ -36,6 +36,7 @@ In cmd.exe or PowerShell.exe, paste the following command with Administrator Pri
 ```sh
 cinst Nuget.CommandLine
 ```
+
 ### Add Package Sources to Visual Studio 2019
 
 In cmd.exe or PowerShell.exe, paste the following command:
@@ -43,7 +44,10 @@ In cmd.exe or PowerShell.exe, paste the following command:
 ```sh
 nuget source Add -Name "GitHubPackage" -Source "https://nuget.pkg.github.com/danielmonettelli/index.json" -UserName danielmonettelli -Password f3df17d5829c5c8809c0e2fd9ea8b40c6c1436b1
 ```
+
 With this you will have it directly in the `NuGet Package Manager`.
+
+![md-links](https://raw.githubusercontent.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/master/Images_Readme/NuGet_Package_Manager.png?token=ADLXRJJWCKB5FRMZXJOSZ3K673MRC)
 
 ## About the Authors' Mentions
 
