@@ -14,7 +14,17 @@ To see all the content click [HERE](https://github.com/danielmonettelli/Awesome-
 
 - [Xamarin.Forms.TabView](https://github.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/packages/287345) by Javier Suárez Ruiz.
 
-## Installation in Visual Studio 2019
+## Installation in Visual Studio 2019 (For all developers)
+
+In a folder of your choice, add this branch repository called NuGet local packages.
+
+In the Package Sources located in `TOOLS / Options / NuGet Package Manager` implement the name and location of the repository, then click Update and OK.
+
+To use them select the name of the Package Source.
+
+#### IMPORTANT: "Do not change the location of the NuGet Packages as others will be incorporated".
+
+## Installation in Visual Studio 2019 (Just for my team)
 
 ### Installing Chocolatey with cmd.exe
 
@@ -23,6 +33,7 @@ Run the following command with Administrator Privileges:
 ```sh
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
+
 ### Installing Chocolatey with PowerShell.exe
 
 Run the following command with Administrator Privileges:
@@ -46,7 +57,7 @@ cinst Nuget.CommandLine
 In cmd.exe or PowerShell.exe, paste the following command:
 
 ```sh
-nuget source Add -Name "GitHubPackage" -Source "https://nuget.pkg.github.com/danielmonettelli/index.json" -UserName danielmonettelli -Password f3df17d5829c5c8809c0e2fd9ea8b40c6c1436b1
+nuget source Add -Name "GitHubPackage" -Source "https://nuget.pkg.github.com/danielmonettelli/index.json" -UserName danielmonettelli -Password MY_TOKEN
 ```
 
 With this you will have it directly in the `NuGet Package Manager`.
