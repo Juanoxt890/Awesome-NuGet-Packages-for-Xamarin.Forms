@@ -16,11 +16,17 @@ To see all the content click [HERE](https://github.com/danielmonettelli/Awesome-
 
 ## Installation in Visual Studio 2019 (For all developers)
 
-In a folder of your choice, add this branch repository called NuGet local packages.
+In a folder of your choice, fork, then clone this branch repository called `NuGetLocalPackages`.
+
+<img src="https://raw.githubusercontent.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/master/Images_Readme/Branch_and_Fork.png?token=ADLXRJPHYHY2L7NRZBPITL2677R7K" />
 
 In the Package Sources located in `TOOLS / Options / NuGet Package Manager` implement the name and location of the repository, then click Update and OK.
 
+<img src="https://raw.githubusercontent.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/master/Images_Readme/Add_Package_Source.png?token=ADLXRJP3ZHPTOGZBL5AXS6S677SOM" />
+
 To use them select the name of the Package Source.
+
+<img src="https://raw.githubusercontent.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/master/Images_Readme/Select_Package_Source.png?token=ADLXRJPAXIBOEJSECXLBZ4C677STE" />
 
 #### IMPORTANT: "Do not change the location of the NuGet Packages as others will be incorporated".
 
