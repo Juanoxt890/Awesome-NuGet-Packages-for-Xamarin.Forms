@@ -10,6 +10,8 @@ This repository collects all MIT Licensed Xamarin.Forms Open Source Projects tha
 
 To see all the content click [HERE](https://github.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/packages).
 
+#### IMPORTANT: BEFORE INSTALLING A NUGET PACKAGE, YOU MUST TAKE INTO ACCOUNT THE DEPENDENCIES IT HAS, USE WITH CARE.
+
 ## NuGet Package Projects
 
 - [Xamarin.Forms.TabView](https://github.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/packages/287345) by Javier Suárez Ruiz.
