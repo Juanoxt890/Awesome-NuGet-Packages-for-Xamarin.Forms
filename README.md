@@ -14,7 +14,9 @@ To see all the content click [HERE](https://github.com/danielmonettelli/Awesome-
 
 ## NuGet Package Projects
 
-- [Xamarin.Forms.TabView](https://github.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/packages/287345) by Javier Suárez Ruiz.
+<a href="https://github.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/packages/287345">
+<img src="https://raw.githubusercontent.com/danielmonettelli/Awesome-NuGet-Packages-for-Xamarin.Forms/master/Images_NuGetPackages/CC_CR_Xamarin_Forms_TabView.png" />
+</a>
 
 ## Installation in Visual Studio 2019 (For all developers)
 
